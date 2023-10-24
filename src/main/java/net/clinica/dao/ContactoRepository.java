@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import net.clinica.entity.Medicamento;
+import net.clinica.entity.Contacto;
 
-public interface MedicamentoRepository extends JpaRepository<Medicamento, Integer>{
+public interface ContactoRepository extends JpaRepository<Contacto, Integer>{
 	
 }
