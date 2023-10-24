@@ -22,7 +22,7 @@ import net.clinica.entity.Contacto;
 import net.clinica.services.ContactoServices;
 
 @RestController
-@RequestMapping("/medicamento")
+@RequestMapping("/contacto")
 public class ContactoController {
 	@Autowired
 	private ContactoServices serMed;
